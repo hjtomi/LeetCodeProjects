@@ -1,7 +1,9 @@
 def climbing_stairs(n):
-    a = b = 1
-    for _ in range(n):
-        a, b = b, a + b
-    return a
+    sum = 0
+    memo = {1: 1, 2: 2, 3: 3, 4: 5}
+    for i in range(1, n + 1):
+        if i not in memo:
+            memo[i] = memo[i - 1] + memo[i - 2]
+    return memo[n]
 
-print(climbing_stairs(0))
+print(climbing_stairs(5))

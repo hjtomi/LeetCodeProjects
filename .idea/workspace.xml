@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29876c08-6573-444f-a401-fc9f8a7bbceb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merge sorted array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merge sorted array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Climbing stairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Climbing stairs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../NemesTihamérNemzetköziProgramozásiVerseny" />
   </component>
-  <component name="RunManager" selected="Python.Merge sorted array">
+  <component name="RunManager" selected="Python.Single number">
     <configuration name="Add binary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Plus one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Single number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Plus one.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Single number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Single number" />
         <item itemvalue="Python.Merge sorted array" />
         <item itemvalue="Python.Climbing stairs" />
         <item itemvalue="Python.Sqrt(x)" />
         <item itemvalue="Python.Add binary" />
-        <item itemvalue="Python.Plus one" />
       </list>
     </recent_temporary>
   </component>
