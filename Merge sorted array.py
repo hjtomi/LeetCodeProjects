@@ -1,26 +1,24 @@
-# iter through nums2
-# iter thought nums1 from the start
-# when the first bigger number is encountered, insert it before that bigger number and set a variable to the bigger
-#                                                                                              numbers position + 1
-# iter thought nums1 form the variable set previously
-
+# a számok végétől kezdjük el csekkolni hogy melyik a nagyobb és csak simán a nums1 végétől kezdve berakosgatjuk
 
 def merge(nums1, m, nums2, n):
-    for i, num2 in enumerate(nums2):
-        index = 0
-        for _ in range(index, len(nums1)):
-            if index == len(nums1)-n:
-                nums1.insert(index+i, num2)
-                index += 1
-                nums1.pop()
-                break
-            if nums1[index] > num2:
-                nums1.insert(index, num2)
-                index += 1
-                nums1.pop()
-                break
-            index += 1
+    # amig vegig nem ertunk a csekkolason valamelyiknel
+    while m > 0 and n > 0:
+        # ha nums1 utolso szama nagyobb nums2 utolso szamanal
+        if nums1[m - 1] > nums2[n - 1]:
+            # nums1 utolso nullaja legyen nums1 utolso szama
+            nums1[m + n - 1] = nums1[m - 1]
+            # nums1ben egyel lentebbtol kezdjuk a csekkolast
+            m -= 1
+        else:
+            # nums1 utolso nullaja legyen nums2 utolso szama
+            nums1[m + n - 1] = nums2[n - 1]
+            # nums2ben egyel lentebbtol kezdjuk a csekkolast
+            n -= 1
+    # hogyha nums2ben maradt szam de nums1ben mar nincs akkor ugye csak nagyobbak lehetnek tehat a vegere hozzakelladni
+    while n > 0:
+        nums1[n - 1] = nums2[n - 1]
+        n -= 1
     return nums1
 
 
-print(merge([0], 0, [1], 1))
+print(merge([1,2,3,0,0,0], 3, [2,5,6], 3))
